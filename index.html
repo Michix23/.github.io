@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #999;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .links-section {
+            margin-bottom: 30px;
+        }
+
+        .link-item {
+            display: block;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: #f5f5f5;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border-left: 4px solid #667eea;
+        }
+
+        .link-item:hover {
+            background: #667eea;
+            color: white;
+            transform: translateX(5px);
+            border-left-color: #764ba2;
+        }
+
+        .edit-note {
+            background: #f0f4ff;
+            border: 1px solid #dde7ff;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .edit-note code {
+            background: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Links</h1>
+        <p class="subtitle">Quick access to everything I use</p>
+
+        <div class="links-section">
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+            <a href="#" class="link-item">Placeholder</a>
+        </div>
+
+        <div class="edit-note">
+            <strong>How to edit:</strong> Open this file in GitHub, click the pencil icon. Replace <code>href="#"</code> with your links and <code>Placeholder</code> with what you want to call it.
+        </div>
+    </div>
+</body>
+</html>
